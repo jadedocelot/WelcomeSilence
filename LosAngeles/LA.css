@@ -1,0 +1,51 @@
+html{
+    background-color: black;
+    position:  fixed;
+
+}
+
+
+#LA{
+    position: fixed;
+    color: white;
+    font-size:50px;
+    right: 46%;
+    bottom: 53%;
+    filter: blur(1.6px);
+    padding: 0;
+    margin: 0;
+    z-index: 12312;
+ }
+
+ #NeonE{
+    position: fixed;
+    color: 	#990000;
+    font-size:37px;
+    right: 44.66%;
+    bottom: 50.6%;
+    filter: blur(2px);
+    z-index: -54545;
+    animation: Neon 2s infinite;
+    transition: animation 2s;
+ }
+
+ 
+ @keyframes Neon{
+	0%   {color: white; }
+	50% {color:#990000; }
+	100%{color: white;}} 
+    
+
+
+  #Les{
+    position: fixed;
+    color: white;
+    font-size:50px;
+    right: 41.79%;
+    bottom: 53%;
+    filter: blur(2px);
+    padding: 0;
+    margin: 0;
+    z-index: 12312;
+
+  }

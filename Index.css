@@ -1,0 +1,161 @@
+html{
+	background-color:  #fbf8f8;
+	font-family: 'Julius Sans One', sans-serif;
+	position: fixed; /*< prevents user from scrolling outside of page*/
+ }
+
+
+
+h1{
+	position: relative;
+	color:#fff3f7;
+	text-shadow: 3px 3px 3px #e5dade, 5px 5px 4px #e5dade;
+	font-size: 77px;
+	filter: blur(1px);
+	font-weight:bold;  
+}
+
+p{
+	position: relative;
+	bottom: -400px;
+	right: -1500px;
+	color:#fbf8f8;
+	z-index: 1541685168;
+ }
+ 	/*#ParBack{
+ 	  position: relative;	
+ 	  right: -295px;
+ 	  width: 550px;
+      height: 100px;
+      background:#f2e6dd;
+      z-index: -231241231;
+
+ 	}
+ */
+li{
+	position: relative;
+	color: #f7e7e8;
+	left:450px;
+	bottom: -30px;
+	margin: 60px;
+	padding: 60px;
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	text-shadow: 3px 3px 3px #e5dade, 5px 5px 4px #e5dade;
+	font-weight: 750;
+	z-index: 1;
+}
+
+a{
+ color: #fff3f7;		
+ text-decoration: none;
+ transition: text-shadow 1s; /* < this will allow the shadow to ease-out*/
+
+ }
+ 
+ 	a:hover{
+ 		filter: blur(1px);
+ 		transition: all 0.7s ease-in,;
+		text-shadow: 3px 3px 3px #282828, 3px 3px 2px #282828;
+		 
+ 	}
+
+/*
+.design-box {
+  width: 100%;
+  height: 250px;
+  top: 200px;
+  margin: 100px auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  position: relative;
+  transition: all 1s ease;
+ }
+
+ .design-box:hover {
+  border-radius: 1200px;
+ }
+*/
+
+ #Redsauce{
+	position: relative;
+	left:-450px;
+	bottom: 1400px;
+	z-index: -123123;
+ }
+
+
+ /* THREE PILLARS BELOW*/
+
+
+ #PillarLeft{
+	position: relative;
+	right: -300px;
+	bottom: -100px;
+	width: 230px;
+	height: 400px;
+	background: #cc0000;
+	filter:blur(4px);
+	transition: width 2s, height 2s, border-radius 2s, box-shadow 3s, filter 3s; /* DECLERATIONS EASE-OUT*/
+	/* box-shadow: 8px 6px 18px #282828, 5.5px 3.38px 2px #282828;< When left pillar loads us with a radius SEE BELOW */
+	/*border-radius: 8pc;*/
+}
+
+    #PillarLeft:hover{
+		border-radius: 0; 
+		width: 1500px; 
+		animation-duration: 4s;
+		transition: all 2s ease-in-out;
+		box-shadow: 8px 6px 18px #282828, 5.5px 3.38px 2px #282828;
+		border-radius: 8pc;
+		filter: blur(0);
+	}
+
+ 
+#PillarCenter{
+	position: relative;
+	right: -735px;
+	bottom: 298px;
+	width: 230px;
+	height: 400px;
+	background:  #f2f0e6;
+	filter:blur(1px);
+	box-shadow: 3px 3px 3px #282828, 3px 3px 2px #282828;
+ }
+#PillarRight{
+	position: relative;
+	right: -1200px;
+	bottom: 700px;
+	width: 230px;
+	height: 400px;
+	background: #f2f0e6;
+	filter:blur(1px);
+	box-shadow: 5px 5px 5px #282828, 3px 3px 2px #282828;
+ }
+
+ /* THREE PILLARS END*/
+
+
+/* LOADING WHEEL START */
+ #Loader{
+	position: relative;
+	top: -1090px;
+	right: -50%;
+	border: 16px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 16px solid #fff3f7;
+	border-right: 16px solid #e5dade;
+	border-bottom: 16px solid #fff3f7;
+	border-left: 16px solid #e5dade;
+	width: 120px;
+	height: 120px;
+	animation: Loader 1s linear infinite;
+	}
+
+
+	@keyframes Loader{
+	0%   {Transform: rotate(0deg); }
+	100% {Transform: rotate(-360deg); }
+	}
+/* LOADING WHEEL END */

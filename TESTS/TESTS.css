@@ -1,0 +1,42 @@
+#PillarLeft{
+	position: relative;
+	right: -300px;
+	bottom: -100px;
+	width: 230px;
+	height: 400px;
+	background: #cc0000;
+	filter:blur(5px);
+	transition: width 2s, height 2s, border-radius 2s, box-shadow 3s; /* DECLERATIONS EASE-OUT*/
+	/* box-shadow: 8px 6px 18px #282828, 5.5px 3.38px 2px #282828;< When left pillar loads us with a radius SEE BELOW */
+	/*border-radius: 8pc;*/
+}
+
+#PillarCenter{
+position: relative;
+right: -735px;
+bottom: 298px;
+width: 230px;
+height: 400px;
+background:  #f2f0e6;
+filter:blur(1px);
+box-shadow: 3px 3px 3px #282828, 3px 3px 2px #282828;
+}
+
+
+#PillarRight{
+position: relative;
+right: -1200px;
+bottom: 700px;
+width: 230px;
+height: 400px;
+background: #f2f0e6;
+filter:blur(1px);
+box-shadow: 5px 5px 5px #282828, 3px 3px 2px #282828;
+ }
+
+
+ script{
+	position: relative;
+	right: -1200px;
+ 	bottom: 700px;
+  } 
