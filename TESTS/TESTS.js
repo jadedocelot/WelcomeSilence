@@ -118,3 +118,10 @@ var elTotal = document.getElementById('grandTotal');
 elTotal.textContent = total;
 
  /* Using artithmetic operators END*/ 
+
+ /* Increment a number (To add 1) */
+
+myVar = 87;
+
+myVar++; ////1 will be added. myVar now = 88
+/* Increment a number (To add 1) */
