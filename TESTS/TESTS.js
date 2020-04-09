@@ -119,9 +119,12 @@ elTotal.textContent = total;
 
  /* Using artithmetic operators END*/ 
 
- /* Increment a number (To add 1) */
+ /* Increment/decrement a number (To add 1) */
 
 myVar = 87;
 
 myVar++; ////1 will be added. myVar now = 88
+
+MyVar = 87;
+MyVar--; //1 will be subtracted. myVar now = 86 
 /* Increment a number (To add 1) */
