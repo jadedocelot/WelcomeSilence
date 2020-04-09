@@ -128,3 +128,32 @@ myVar++; ////1 will be added. myVar now = 88
 MyVar = 87;
 MyVar--; //1 will be subtracted. myVar now = 86 
 /* Increment a number (To add 1) */
+
+//REVIEW Working on how the code below will know who to greet by the current time
+// for Binturong/Index.js
+var today = new Date();
+var HourNow = today.getHours();
+
+var elUserOne = document.getElementById('visitor');
+var elUserTwo = document.getElementById('visitor');
+var elUserThree = document.getElementById('visior');
+
+
+var today = new Date();
+var HourNow = today.getHours();
+
+if (hourNow > 18) {
+    var elUserOne = document.getElementById('visitor');
+    elUserOne.textContent = username[0];
+}
+
+if (hourNow > 12) {
+    var elUserTwo = document.getElementById('visitor');
+    elUserTwo.textContent = username[1];
+}
+
+if (hourNow > 0) {
+    var elUserThree = document.getElementById('visior');
+    elUserThree.textContent = username[2];
+
+}

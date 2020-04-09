@@ -53,13 +53,6 @@ a{
  transition: text-shadow 1s; /* < this will allow the shadow to ease-out*/
 
  }
- 
- 	a:hover{
- 		filter: blur(1px);
- 		transition: all 0.7s ease-in,;
-		text-shadow: 3px 3px 3px #282828, 3px 3px 2px #282828;
-		 
- 	}
 
 /*
 .design-box {
