@@ -157,3 +157,13 @@ if (hourNow > 0) {
     elUserThree.textContent = username[2];
 
 }
+
+
+
+/* The example below is of setting up an array.*/
+
+var myArray = ['String', 'Example', 4]; ///in order to set up an array VAR you must place decleration
+
+    /// Belows example presents a "NESTED" array or alsom considered a MULTI DIMENSIONAL array
+
+    var nestArray = [["Nested", 23], ["Multi", 890];]
